@@ -27,4 +27,6 @@ cursor.execute(create_table)
 
 #commit change
 connection.commit()
+
+#close connection
 connection.close()
